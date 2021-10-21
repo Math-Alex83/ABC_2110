@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<exercise_le_livre>
+    <info_livre>
+  <titre>Origine</titre>
+  <auteur>Mathieu_A_et_Dan_Brown</auteur>      
+    </info_livre>
+    <Résumé>
+<chapitre_1>texte</chapitre_1>        
+</Résumé>
+</exercise_the_books>
