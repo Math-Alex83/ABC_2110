@@ -1,10 +1,38 @@
-<?xml version="1.0"?>
-<exercise_le_livre>
-    <info_livre>
-  <titre>Origine</titre>
-  <auteur>Mathieu_A_et_Dan_Brown</auteur>      
-    </info_livre>
-    <Résumé>
-<chapitre_1>texte</chapitre_1>        
-</Résumé>
-</exercise_the_books>
+<?xml version="1.0" encoding="UTF-8"?>
+<exercice_le_livre>
+  <auteurs>
+    <auteur id="1">
+      <prenom>Dan</prenom>
+      <nom>BROWN</nom>
+    </auteur>
+    <auteur id="2">
+      <prenom>Mathieu</prenom>
+      <nom>AKNOUCHE</nom>
+    </auteur>
+  </auteurs>
+  <informations_livre>
+    <Titre>Origine_du_Développement</Titre>
+    <genre>Fiction</genre>
+    <prix unité="€">19.99</prix>
+  </informations_livre>
+  <Partie numero="1">
+    <chapitre numero="1">
+      <paragraphe numero="1">TEXTE</paragraphe>
+      <paragraphe numero="2">TEXTE</paragraphe>
+    </chapitre>
+    <chapitre numero="2">
+      <paragraphe numero="1">TEXTE</paragraphe>
+      <paragraphe numero="2">TEXTE</paragraphe>
+    </chapitre>
+  </Partie>
+  <Partie numero="2">
+    <chapitre numero="1">
+      <paragraphe numero="1">TEXTE</paragraphe>
+      <paragraphe numero="2">TEXTE</paragraphe>
+    </chapitre>
+    <chapitre numero="2">
+      <paragraphe numero="1">TEXTE</paragraphe>
+      <paragraphe numero="2">TEXTE</paragraphe>
+    </chapitre>
+  </Partie>
+</exercice_le_livre>
