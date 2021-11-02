@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <menu id="1" devise="€" prix="30">
+        <entrees>
+            <entree id="1" nom="texte" prix="00" description="texte"/>
+            <nom>texte</nom>
+            <prix devise="€"></prix>
+            <description="texte"></description>
+        </entrees>
+        <Plats>
+            <plat id="1">TEXTE</plat>
+            <plat id="2">TEXTE</plat>
+            <plat id="3">TEXTE</plat>
+        </Plats>
+        <desserts>
+            <dessert id="1">TEXTE</dessert>
+            <dessert id="2">TEXTE</dessert>
+        </desserts>
+    </menu>
