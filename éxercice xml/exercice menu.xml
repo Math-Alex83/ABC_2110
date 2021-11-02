@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus>
+    <menu id="1" devise="€" prix="30">
+        <entrees>
+            <entree id="1">TEXTE</entree>
+            <entree id="2">TEXTE</entree>
+            <entree id="3">TEXTE</entree>
+        </entrees>
+        <Plats>
+            <plat id="1">TEXTE</plat>
+            <plat id="2">TEXTE</plat>
+            <plat id="3">TEXTE</plat>
+        </Plats>
+        <fromage>TEXTE</fromage>
+        <desserts>
+            <dessert id="1">TEXTE</dessert>
+            <dessert id="2">TEXTE</dessert>
+            <dessert id="3">TEXTE</dessert>
+        </desserts>
+    </menu>
+    <menu id="2" devise="€" prix="20">
+        <entrees>
+            <entree id="1">TEXTE</entree>
+            <entree id="2">TEXTE</entree>
+        </entrees>
+        <plats>
+            <plat id="1">TEXTE</plat>
+            <plat id="2">TEXTE</plat>
+        </plats>
+        <desserts>
+            <dessert id="1">texte</dessert>
+            <dessert id="2">texte</dessert>
+        </desserts>
+    </menu>
+    <menu id="3" devise="€" prix="15">
+        <entree id="1">texte</entree>
+        <plat id="1">texte</plat>
+        <dessert id="1">texte</dessert>
+    </menu>
+</menus>
