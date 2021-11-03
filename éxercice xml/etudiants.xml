@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <formations>
-    <formation id="abc.dev"></formation>
+    <formation id="abc.dev">ABC.DEVELOPPEMENT</formation>
+    <dates>
+        <duree>5 mois</duree>
+        <debut>le 21/10/2021</debut>
+        <fin>le 01/04/2022</fin>
+    </dates>
+    <etudiants>
+        <etudiant id="01">
+            <prenom>Mathieu</prenom>
+            <nom>Aknouche</nom>
+            <date_de_naissance>01/11/1983</date_de_naissance>
+            <mail>pipodu68@gmx.fr</mail>
+        </etudiant>
+        <etudiant id="02">
+            <prenom>Corinne</prenom>
+            <nom>Croforte</nom>
+            <date_de_naissance>11/10/1951</date_de_naissance>
+            <mail>clarinette@free.fr</mail>
+        </etudiant>
+        <etudiant id="03">
+            <nom>Einstein</nom>
+            <prenom>Albert</prenom>
+            <date_de_naissance>14/03/1879</date_de_naissance>
+            <mail>alberto@wanadoo.fr</mail>
+        </etudiant>
+    </etudiants>
 </formations>
