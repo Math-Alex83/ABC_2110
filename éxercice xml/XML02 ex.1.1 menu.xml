@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <menu id="1" devise="€" prix="30">
-        <entrees>
-            <entree id="1" nom="texte" prix="00" description="texte"/>
+<menu id="1">
+    <entrees>
+        <entree_1 id="1" devise="€" prix="10">
             <nom>texte</nom>
-            <prix devise="€"></prix>
-            <description="texte"></description>
-        </entrees>
-        <Plats>
-            <plat id="1">TEXTE</plat>
-            <plat id="2">TEXTE</plat>
-            <plat id="3">TEXTE</plat>
-        </Plats>
-        <desserts>
-            <dessert id="1">TEXTE</dessert>
-            <dessert id="2">TEXTE</dessert>
-        </desserts>
-    </menu>
+            <description>texte</description>
+        </entree_1>
+        <entree_2 id="2" devise="€" prix="12">
+            <nom>texte</nom>
+            <description>texte</description>
+        </entree_2>
+    </entrees>
+    <Plats>
+        <plat_1 id="1" devise="€" prix="15">
+            <nom>texte</nom>
+            <decription>texte</decription>
+        </plat_1>
+        <plat_2 id="2" devise="€" prix="13">
+            <nom>texte</nom>
+            <description>texte</description>
+        </plat_2>
+        <plat_3 id="3" devise="€" prix="10">
+            <nom>texte</nom>
+            <description>texte</description>
+        </plat_3>
+    </Plats>
+    <desserts>
+        <dessert_1 id="1" devise="€" prix="8">
+            <nom>texte</nom>
+            <description>texte</description>
+        </dessert_1>
+        <dessert_2 id="2" devise="€" prix="5">
+            <nom>texte</nom>
+            <description>texte</description>
+        </dessert_2>
+    </desserts>
+</menu>
