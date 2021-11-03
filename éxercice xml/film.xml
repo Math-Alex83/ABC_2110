@@ -1,1 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<films>
+    <film id="Les éternels"></film>
+    <film id="Venom"></film>
+    <film id="Mourir peut attendre"></film>
+</films>
