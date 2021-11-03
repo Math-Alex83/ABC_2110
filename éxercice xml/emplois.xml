@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emploi_offres>
+    <offre id="Développeur PHP">
+        <intitulé>texte</intitulé>
+        <ville>Paris</ville>
+        <description>
+            <tache>texte</tache>
+            <avantages>texte</avantages>
+            <profil>texte</profil>
+        </description>
+        <compétences>
+            <compétence>texte</compétence>
+            <compétence>texte</compétence>
+            <compétence>texte</compétence>
+            <compétence>texte</compétence>
+            <compétence>texte</compétence>
+        </compétences>
+        <informations>
+            <date>le 01/01/2022</date>
+            <salaire devise="€" periode="annuel">27600</salaire>
+            <contact>lecontact.duboss@outlook.fr</contact>
+        </informations>
+    </offre>
+    <offre id="Développeur JAVA">
+        <intitulé>texte</intitulé>
+        <ville>Mulhouse</ville>
+        <description>
+            <tache>texte</tache>
+            <avantages>texte</avantages>
+            <profil>texte</profil>
+        </description>
+        <compétences>
+            <compétence>texte</compétence>
+            <compétence>texte</compétence>
+            <compétence>texte</compétence>
+            <compétence>texte</compétence>
+            <compétence>texte</compétence>
+        </compétences>
+        <informations>
+            <date>le 02/01/2022</date>
+            <salaire devise="€" periode="annuel">29000</salaire>
+            <contact>lecontact.duboss@outlook.fr</contact>
+        </informations>
+    </offre>
+    <offre id="Développeur NodeJS">
+        <intitulé>texte</intitulé>
+        <ville>Toulouse</ville>
+        <description>
+            <tache>texte</tache>
+            <avantages>texte</avantages>
+            <profil>texte</profil>
+        </description>
+        <compétences>
+            <compétence>texte</compétence>
+            <compétence>texte</compétence>
+            <compétence>texte</compétence>
+            <compétence>texte</compétence>
+            <compétence>texte</compétence>
+        </compétences>
+        <informations>
+            <date>le 03/01/2022</date>
+            <salaire devise="€" periode="annuel">30000</salaire>
+            <contact>lecontact.duboss@outlook.fr</contact>
+        </informations>
+    </offre>
+</emploi_offres>
