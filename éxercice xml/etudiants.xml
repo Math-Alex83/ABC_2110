@@ -11,19 +11,19 @@
             <prenom>Mathieu</prenom>
             <nom>Aknouche</nom>
             <date_de_naissance>01/11/1983</date_de_naissance>
-            <mail>pipodu68@gmx.fr</mail>
+            <mail>pipo.du68@gmx.fr</mail>
         </etudiant>
         <etudiant id="02">
             <prenom>Corinne</prenom>
             <nom>Croforte</nom>
             <date_de_naissance>11/10/1951</date_de_naissance>
-            <mail>clarinette@free.fr</mail>
+            <mail>clari.nette@free.fr</mail>
         </etudiant>
         <etudiant id="03">
             <nom>Einstein</nom>
             <prenom>Albert</prenom>
             <date_de_naissance>14/03/1879</date_de_naissance>
-            <mail>alberto@wanadoo.fr</mail>
+            <mail>alber.to@wanadoo.fr</mail>
         </etudiant>
     </etudiants>
 </formations>
