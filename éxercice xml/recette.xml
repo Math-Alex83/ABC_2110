@@ -1,1 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<recette_des_crepes_bretonne>
+    <difficulte id="Facile" />
+    <temps>
+        <prep id="Temps de préparation" duree="minute">15</prep>
+        <cuisson id="Temps de cuisson" duree="minute">40</cuisson>
+    </temps>
+    <ingredients>
+        <ingredient id="Farine">
+            <quantite mesure="grammes">250</quantite>
+        </ingredient>
+        <ingredient id="Beurre">
+            <quantite mesure="grammes">50</quantite>
+        </ingredient>
+        <ingredient id="Lait">
+            <quantite mesure="centilitres">50</quantite>
+        </ingredient>
+        <ingredient id="Oeuf">
+            <quantite mesure="nombres">4</quantite>
+        </ingredient>
+        <ingredient id="Sucre">
+            <quantite>2 cuillères à soupe</quantite>
+        </ingredient>
+        <ingredient id="Sel">
+            <quantite>1 pincée</quantite>
+        </ingredient>
+    </ingredients>
+    <etapes_de_preparation>
+        <etape id="Étape 1">Versez la farine, le sucre,et le sel dans un saladier.</etape>
+        <etape id="Étape 2">Ajoutez le lait puis 100 ml d'eau progressivement, tout en fouettant.</etape>
+        <etape id="Étape 3">Faites fondre le beurre au micro-ondes, puis incorporez-le à la pâte.</etape>
+        <etape id="Étape 4">Finissez par les oeufs. Mélangez.</etape>
+        <etape id="Étape 5">Laissez la pâte à crêpes reposer pendant 30 à 45 min au frais.</etape>
+        <etape id="Étape 6">Graissez une poêle avec une noisette de beurre, puis versez une louche de pâte.</etape>
+        <etape id="Étape 7">Faites cuire chaque crêpe environ 2 min par face.</etape>
+    </etapes_de_preparation>
+    <astuce id="Astuce">Vous pouvez ensuite garnir vos crêpes selon vos envies.</astuce>
+</recette_des_crepes_bretonne>
