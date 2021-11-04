@@ -1,268 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <films>
-    <film id="Les éternels">
+    <film>
+        <nom id="Les éternels" />
         <jours>
             <jour id="Lundi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Mardi">
                 <horaires>
-                    <horaire id="heure">10:30</horaire>
-                    <horaire id="heure">15:00</horaire>
-                    <horaire id="heure">21:00</horaire>
-                    <horaire id="heure"></horaire>
+                    <horaire>10:30</horaire>
+                    <horaire>15:00</horaire>
+                    <horaire>21:00</horaire>
+                    <horaire></horaire>
                 </horaires>
             </jour>
             <jour id="Mercredi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Jeudi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Vendredi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Samedi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
-            <jour id="Dimanche">FERMÉ</jour>
+            <jour id="Dimanche"/>
         </jours>
     </film>
     <film id="Venom">
         <jours>
             <jour id="Lundi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Mardi">
                 <horaires>
-                    <horaire id="heure">10:30</horaire>
-                    <horaire id="heure">15:00</horaire>
-                    <horaire id="heure">21:00</horaire>
-                    <horaire id="heure"></horaire>
+                    <horaire>10:30</horaire>
+                    <horaire>15:00</horaire>
+                    <horaire>21:00</horaire>
+                    <horaire></horaire>
                 </horaires>
             </jour>
             <jour id="Mercredi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Jeudi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Vendredi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Samedi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
-            <jour id="Dimanche">FERMÉ</jour>
+            <jour id="Dimanche"/>
         </jours>
     </film>
     <film id="Mourir peut attendre">
         <jours>
             <jour id="Lundi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Mardi">
                 <horaires>
-                    <horaire id="heure">10:30</horaire>
-                    <horaire id="heure">15:00</horaire>
-                    <horaire id="heure">21:00</horaire>
-                    <horaire id="heure"></horaire>
+                    <horaire>10:30</horaire>
+                    <horaire>15:00</horaire>
+                    <horaire>21:00</horaire>
+                    <horaire></horaire>
                 </horaires>
             </jour>
             <jour id="Mercredi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Jeudi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Vendredi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Samedi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
-            <jour id="Dimanche">FERMÉ</jour>
+            <jour id="Dimanche"/>
         </jours>
     </film>
     <film id="Eiffel">
         <jours>
             <jour id="Lundi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Mardi">
                 <horaires>
-                    <horaire id="heure">10:30</horaire>
-                    <horaire id="heure">15:00</horaire>
-                    <horaire id="heure">21:00</horaire>
-                    <horaire id="heure"></horaire>
+                    <horaire>10:30</horaire>
+                    <horaire>15:00</horaire>
+                    <horaire>21:00</horaire>
+                    <horaire></horaire>
                 </horaires>
             </jour>
             <jour id="Mercredi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Jeudi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Vendredi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Samedi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
-            <jour id="Dimanche">FERMÉ</jour>
+            <jour id="Dimanche"/>
         </jours>
     </film>
     <film id="Lost Illusions">
         <jours>
             <jour id="Lundi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Mardi">
                 <horaires>
-                    <horaire id="heure">10:30</horaire>
-                    <horaire id="heure">15:00</horaire>
-                    <horaire id="heure">21:00</horaire>
-                    <horaire id="heure"></horaire>
+                    <horaire>10:30</horaire>
+                    <horaire>15:00</horaire>
+                    <horaire>21:00</horaire>
+                    <horaire></horaire>
                 </horaires>
             </jour>
             <jour id="Mercredi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Jeudi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Vendredi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
             <jour id="Samedi">
                 <horaires>
-                    <horaire id="heure">10:00</horaire>
-                    <horaire id="heure">14:00</horaire>
-                    <horaire id="heure">19:00</horaire>
-                    <horaire id="heure">21:00</horaire>
+                    <horaire>10:00</horaire>
+                    <horaire>14:00</horaire>
+                    <horaire>19:00</horaire>
+                    <horaire>21:00</horaire>
                 </horaires>
             </jour>
-            <jour id="Dimanche">FERMÉ</jour>
+            <jour id="Dimanche"/>
         </jours>
     </film>
 </films>
