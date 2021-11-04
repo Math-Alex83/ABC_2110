@@ -1,1 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<occasions>
+    <voiture1>
+        <image>https://www.bing.com/images/blob?bcid=RIjqiONZZGwDhw</image>
+        <marque id="RENAULT" />
+        <model id="TWINGO" />
+        <tarif id="€" prix="6990" />
+        <annee date="2013" />
+        <moteur cylindrée="1.2" />
+        <carburant type="Essence" />
+        <kilometrage id="km">112083</kilometrage>
+        <transmission type="Manuelle" />
+    </voiture1>
+    <voiture2>
+        <image>https://img-eu-c1.autohero.com/img/01286915-da6b-4a8a-8b72-4ab54d35f1e4/768x432-74110f4d-617f-4e6f-b9ae-0cf562367571.jpg</image>
+        <marque id="Mercedes-Benz" />
+        <model id="B-Klasse" />
+        <tarif id="€" prix="21390" />
+        <annee date="2018" />
+        <moteur cylindrée="2.2" />
+        <carburant type="Diesel" />
+        <kilometrage id="km">50393</kilometrage>
+        <transmission type="Automatique" />
+    </voiture2>
+    <voiture3>
+        <image>https://img-eu-c1.autohero.com/img/b966f065-15da-4d36-a9b0-447add65c5de/768x432-6ba7fe0d-b3fd-46a3-8852-b8d5a96a857c.jpg</image>
+        <marque id="FORD" />
+        <model id="PUMA" />
+        <tarif id="€" prix="19790" />
+        <annee date="2020" />
+        <moteur cylindrée="1.0" />
+        <carburant type="Essence" />
+        <kilometrage id="km">16096</kilometrage>
+        <transmission type="Manuelle" />
+    </voiture3>
+    <voiture4>
+        <image>https://img-eu-c1.autohero.com/img/f60d6dbddf8e6482189427a055399c1b005cf0ce386e1a76c90a7e626371a854/exterior/1/768x432-797f911488db4e8c9d4b9e36eb7c3b88.jpg</image>
+        <marque id="Mazda" />
+        <model id="CX-5" />
+        <tarif id="€" prix="19990" />
+        <annee date="2015" />
+        <moteur cylindrée="2.2" />
+        <carburant type="Diesel" />
+        <kilometrage id="km">102174</kilometrage>
+        <transmission type="Automatique" />
+    </voiture4>
+</occasions>
