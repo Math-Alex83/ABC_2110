@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <films>
     <film>
-        <nom id="Les éternels" />
+        <nom titre="Les éternels" />
         <jours>
             <jour id="Lundi">
                 <horaires>
@@ -54,7 +54,7 @@
             <jour id="Dimanche"/>
         </jours>
     </film>
-    <film id="Venom">
+    <film titre="Venom">
         <jours>
             <jour id="Lundi">
                 <horaires>
@@ -107,7 +107,7 @@
             <jour id="Dimanche"/>
         </jours>
     </film>
-    <film id="Mourir peut attendre">
+    <film titre="Mourir peut attendre">
         <jours>
             <jour id="Lundi">
                 <horaires>
@@ -160,7 +160,7 @@
             <jour id="Dimanche"/>
         </jours>
     </film>
-    <film id="Eiffel">
+    <film titre="Eiffel">
         <jours>
             <jour id="Lundi">
                 <horaires>
@@ -213,7 +213,7 @@
             <jour id="Dimanche"/>
         </jours>
     </film>
-    <film id="Lost Illusions">
+    <film titre="Lost Illusions">
         <jours>
             <jour id="Lundi">
                 <horaires>
