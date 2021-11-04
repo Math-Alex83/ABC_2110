@@ -1,7 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<produits_maraicher>
-    <maraicher>
-        <
-    </maraicher>
-
-</produits_maraicher>
+<maraicher>
+    <panier>
+        <quantite unite="kg">4.5</quantite>
+        <prix devise="€">10</prix>
+    </panier>
+    <oeufs>
+        <quantite>6</quantite>
+        <prix devise="€">1.60</prix>
+        <quantite>12</quantite>
+        <prix devise="€">2.80</prix>
+    </oeufs>
+    <produits>
+        <saisons>
+            <automne>
+                <mois>
+                    <octobre>
+                        <nom>Pomme de terre</nom>
+                        <nom>Oignon</nom>
+                        <nom>Tomate</nom>
+                        <nom>Poivron</nom>
+                        <nom>Bette</nom>
+                        <nom>Navet</nom>
+                        <nom>Courgette</nom>
+                        <nom>Harricot</nom>
+                        <nom>Carotte</nom>
+                        <nom>Brocoli</nom>
+                    </octobre>
+                    <novembre>
+                        <nom>Pomme de terre</nom>
+                        <nom>Oignon</nom>
+                        <nom>Ail</nom>
+                        <nom>Salade chicorée</nom>
+                        <nom>Carde</nom>
+                        <nom>Bette</nom>
+                        <nom>Navet</nom>
+                        <nom>Betterave</nom>
+                        <nom>Carotte</nom>
+                        <nom>Poireau</nom>
+                        <nom>Potiron</nom>
+                        <nom>Chou frisé</nom>
+                        <nom>Chou cabus</nom>
+                    </novembre>
+                    <decembre>
+                        <nom>Pomme de terre</nom>
+                        <nom>Oignon</nom>
+                        <nom>Ail</nom>
+                        <nom>Salsifis</nom>
+                        <nom>Épinard</nom>
+                        <nom>Betterave</nom>
+                        <nom>Carotte</nom>
+                        <nom>potiron</nom>
+                        <nom>Poireau</nom>
+                        <nom>Chou rouge</nom>
+                        <nom>Céleri</nom>
+                        <nom>Panais</nom>
+                    </decembre>
+                </mois>
+            </automne>
+            <hiver>
+                <mois></mois>
+            </hiver>
+        </saisons>
+    </produits>
+</maraicher>
