@@ -1,4 +1,14 @@
+header{
+    background-color:#217797;
+    background-color:#678be0;
+
+}
+.image{
+text-align: center;
+}
 h1{
+    border:#001011 2px solid;
     color:#efa00b;
+    color:#f1f2f6;
     text-align: center;
 }
