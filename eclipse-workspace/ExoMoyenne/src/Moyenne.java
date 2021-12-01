@@ -42,6 +42,7 @@ public class Moyenne {
 		
 		//Affichage
 		
+		//ecrire moyenne
 		System.out.println("la valeur de la moyenne est de "+moyenne);
 		
 
