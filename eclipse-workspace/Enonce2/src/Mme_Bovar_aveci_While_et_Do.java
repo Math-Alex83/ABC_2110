@@ -11,8 +11,8 @@ public class Mme_Bovar_aveci_While_et_Do {
 		String reponse3;
 		String reponse4;
 		String reponse5;
-		String "oui";
-		String "non";
+		String oui;
+		String non;
 		// Affichage 
 		while (reponse1.equals("oui"));
 		// ecrire "Fait-il beau demain ?"
