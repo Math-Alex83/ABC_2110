@@ -39,7 +39,26 @@ public class Moyenne {
 		//moyenne <-- (nombre+nombre2)/2 
 		moyenne = (nombre1+nombre2)/2;
 		
+		//Condition
+		//Si moyenne >= 10) Alors
+		//
+		/*if (moyenne>=10) { 
+		//
+		}
+		//Sinon
+		else {
+		//moyenne <-- moyenne + 1
+			moyenne = moyenne + 1;
+		//FinSi
+		}*/
 		
+		
+		//Condition 2 avec un seul if
+		//Si (moyenne <10) Alors
+			//moyenne <-- moyenne + 1
+		if (moyenne<10) {
+			moyenne = moyenne + 1;
+		}
 		//Affichage
 		
 		//ecrire moyenne
