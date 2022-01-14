@@ -9,11 +9,8 @@ public class Exemple_jeu_doigts {
 		int nbrA;
 		int nbrB;
 		int reste;
-		// Traitement
-		reste =(nbrA + nbrB)mod 2;
 		
-		
-		// Début de la partie
+		// Debut de la partie
 		
 		// écrire "Les joueurs A et B vont choisir un chiffre entre 0 et 5, si la sommes est paire: Joueur A Gagne ; Si impaire: Joueur B Gagne."
 		System.out.println("Les joueurs A et B choisiront un chiffre entre 0 et 5. Si, le résultat est paire, Joueur A Gagne, sinon jouer B ");
@@ -29,7 +26,17 @@ public class Exemple_jeu_doigts {
 		// Lire choix du joueur B
 		nbrB = sc.nextInt();
 		
+		// Traitement
+		reste = ((nbrA + nbrB) % 2);
 		
+		if (reste == (0)) 
+		{
+			System.out.println("Bravo au joueur A, vous avez gagner!");
+		}
+		else 
+		{
+			System.out.println("Bravo joueur B, vous avez gagner!");
+		}
 		
 	sc.close();	
 	}

@@ -4,7 +4,7 @@ public class Mme2Bovary {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Dï¿½claration des variables
+		// Déclaration des variables
 		String reponse1;
 		String reponse2;
 		String reponse3;
@@ -21,9 +21,11 @@ public class Mme2Bovary {
 		//lire reponse1
 		reponse1 = sc.next();
 		// condition Si (reponse1="oui") Alors
-		if (reponse1.equals("oui")) {
-			//ï¿½crire (Le vï¿½lo est-il en bon ï¿½tat ?)
-			System.out.println("Le vï¿½lo est-il en ï¿½tat ?");
+		
+		if (reponse1.equals("oui")) 
+		{
+			//écrire (Le vélo est-il en bon état ?)
+			System.out.println("Le vélo est-il en état ?");
 			//lire la reponse2
 			reponse2 = sc.next();
 
@@ -31,8 +33,8 @@ public class Mme2Bovary {
 			{
 				//ecrire "Je passe au garage"
 				System.out.println("Je passe au garage");
-				//ecrire "Le vï¿½lo est-il rï¿½parable"
-				System.out.println("Le vï¿½lo est-il rï¿½parable ?");
+				//ecrire "Le vélo est-il réparable"
+				System.out.println("Le vélo est-il réparable ?");
 
 				//lire reponse3
 				reponse3 = sc.next();
@@ -43,21 +45,21 @@ public class Mme2Bovary {
 					System.out.println("J'irai cueuillir des Joncs");
 				}
 				else {
-					// ï¿½crire "j'irai faire une balade ï¿½ vï¿½lo	
-					System.out.println("J'irai faire une balade ï¿½ vï¿½lo");
+					// écrire "j'irai faire une balade à vélo	
+					System.out.println("J'irai faire une balade à vélo");
 				}
 			}
 			//sinon
 			else {
-				System.out.println("Je vais faire une balade ï¿½ vï¿½lo");
+				System.out.println("Je vais faire une balade à vélo");
 			}
 		}
 		else 
 		{
 
-			// ï¿½crire "J'irai ï¿½ la bibliothï¿½que du salon"
-			System.out.println("Je vais ï¿½ la bibliothï¿½que du salon");	
-			//ï¿½crire "Le livre, Mme Bovary' y est-il?"
+			// écrire "J'irai à la bibliothèque du salon"
+			System.out.println("Je vais à la bibliothèque du salon");	
+			//écrire "Le livre, Mme Bovary' y est-il?"
 			System.out.println("Le livre, Mme Bovary' y est-il ?");
 			//lire reponse4
 			reponse4 = sc.next();
@@ -65,8 +67,8 @@ public class Mme2Bovary {
 			// Si (reponse4=="non") Alors
 			if (reponse4.equals("non")) 
 			{
-				//ecrire "Je vais ï¿½ la bibliothï¿½que municipale"
-				System.out.println("Je vais ï¿½ la bibliothï¿½que municipale");
+				//ecrire "Je vais à la bibliothèque municipale"
+				System.out.println("Je vais à la bibliothèque municipale");
 				//ecrire "Ont-ils Mme Bovary'?"
 				System.out.println("Ont-ils le livre: Mme Bovary'?");
 				//lire reponse5
@@ -75,17 +77,17 @@ public class Mme2Bovary {
 				// Si (reponse == "non") Alors
 				if (reponse5.equals("non")) 
 				{
-					//ï¿½crire "Prendre un livre policier"
+					//écrire "Prendre un livre policier"
 					System.out.println("Je prends un livre Policier");
 				}
 				else {
-					//ï¿½crire "Je prends le livre: Mme Bovary'"
+					//écrire "Je prends le livre: Mme Bovary'"
 					System.out.println("Je prends le livre: Mme Bovary'");
 				}
-				// Je rentre ï¿½ la maison"
-				System.out.println("Je rentre ï¿½ la maison");
+				// Je rentre à la maison"
+				System.out.println("Je rentre à la maison");
 			}	
-			// ï¿½crire "Je m'installe et je lis"
+			// écrire "Je m'installe et je lis"
 			System.out.println("Je m'installe et je lis");
 			// Fermeture du scanner
 
