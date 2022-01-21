@@ -9,16 +9,19 @@ public class Exemple_jeu_doigts {
 		int nbrA;
 		int nbrB;
 		int reste;
+		String reponse;
 		
+		// import du scanner
+				Scanner sc = new Scanner(System.in);
 		// Debut de la partie
-		
+		do
+		{
 		// écrire "Les joueurs A et B vont choisir un chiffre entre 0 et 5, si la sommes est paire: Joueur A Gagne ; Si impaire: Joueur B Gagne."
 		System.out.println("Les joueurs A et B choisiront un chiffre entre 0 et 5. Si, le résultat est paire, Joueur A Gagne, sinon jouer B ");
 		//écrire" joueur A commence"
 		System.out.println("Commençons! Joueur A, entrez un chiffre entre 0 et 5 s'il vous plait.");
 		
-		// import du scanner
-		Scanner sc = new Scanner(System.in);
+		
 		//Lire choix du joueur A
 		nbrA = sc.nextInt();
 		// écrire "A vous joueur B, entrez un chiffre entre 0 et 5 s'il vous plait."
@@ -37,7 +40,11 @@ public class Exemple_jeu_doigts {
 		{
 			System.out.println("Bravo joueur B, vous avez gagner!");
 		}
-		
+		// Voulez-vous rejouer?
+		System.out.println("Voulez-vous rejouer ? o/n");
+		reponse=sc.next();
+		}
+		while (!reponse.equals("non"));
 	sc.close();	
 	}
 

@@ -24,20 +24,19 @@ public class exo_1_6_Nbr_1er {
 		// au départ diviseur est égal à 2 donc diviseur==2 puis avec while dire que diviseur < à nbrx.
 		diviseur = 2;
 
-		boolean estNombrePremier = true;
+		//boolean estNombrePremier = true;
 
-		while /*(diviseur < nbrx)*/ (diviseur < nbrx && true) 
-			
+		while (diviseur < nbrx) //(diviseur < nbrx && true) 
+
 		{
 			// Si nbrx modulo diviseur = 0
 			if (nbrx % diviseur == 0) 
 			{
-				estNombrePremier=false;
-				//diviseur = nbrx+1;
+				//estNombrePremier=false;
+				diviseur = nbrx+1;
 			}
 
 			diviseur++;
-
 		}
 
 		if (diviseur>nbrx)

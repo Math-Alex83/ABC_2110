@@ -6,5 +6,4 @@ public class exo_4_nbr_reel {
 		//Déterminer la valeur absolue d'un nombre réel.
 		
 	}
-
 }
