@@ -8,16 +8,18 @@ public class exo_1_10_nombre_parfait {
 		/* exmple pour "6" ses diviseurs strict sont 1,2,3,6 donc 1+2+3=6 alors 6 est un nombre dit parfait*/
 
 		double npt=0;
-		int nbrx;
+		double nbrx;
 		int i;
 		//int d;
 		double result;
+		
+		
 		//import Scanner
 		Scanner sc=new Scanner(System.in);
 
 
 		System.out.println("Veuillez saisir un nombre pour savoir si c'est un nombre parfait s'il vous plaît"+"\n");
-		nbrx=sc.nextInt();
+		nbrx=sc.nextDouble();
 
 		System.out.println(+nbrx+" est-il un nombres parfaits ?"+"\n");
 		System.out.println("Les diviseur stric de "+nbrx+" sont :"+"\n");
