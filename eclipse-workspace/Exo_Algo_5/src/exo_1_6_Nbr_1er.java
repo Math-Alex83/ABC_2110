@@ -35,10 +35,11 @@ public class exo_1_6_Nbr_1er {
 				//estNombrePremier=false;
 				diviseur = nbrx+1;
 			}
-
+			else 
+			{
 			diviseur++;
+			}
 		}
-
 		if (diviseur>nbrx)
 		{
 			System.out.println(" "+nbrx+" n'est pas un nombre premier.");

@@ -16,7 +16,7 @@ public class el_divisator {
 			System.out.println("Veuillez saisir un nombre entier à diviser s'il vous plaît ?");
 			nbrx=sc.nextInt();
 			System.out.println("Voici la divivision de "+nbrx+"\n");
-			for (i=2; i<=nbrx-1; i=i+1)//i=2 pour ne pas avoir 1 et nbrx-1 pour ne pas avoir lui-même.
+			for (i=1; i<=(nbrx/2); i=i+1)//i=2 pour ne pas avoir 1 et nbrx-1 pour ne pas avoir lui-même.
 			{
 				if (nbrx%i==0)
 				{
