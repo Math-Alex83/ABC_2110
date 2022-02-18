@@ -10,37 +10,38 @@ public class exoKm211 {
 		/* Conversion de km en mi*/
 
 		String saisi;
-		int valeur;
+		double valeur;
 		String unite="Miles";
 		double resultat; // km divise par 1.609= (x Miles)
 		double conVkm=1.609; // taux de conversion 1 miles=1.609 km
 		String rejouer;
-		Scanner sc=new Scanner(System.in);
-		
-		
+		boolean veutQuitter = false;
+
+		Scanner sc = new Scanner(System.in);
 		do 
 		{
+
 			System.out.println("Please enter a value in Km.\n Ou appuyez sur 'q' pour quitter.");
-			
+
 			saisi=sc.nextLine();
 
-
-			if (!(saisi.equals("q")))
+			if (saisi.equals("q"))
 			{
+				veutQuitter = true;
+				System.out.println("End of program");
 
-				valeur = Integer.valueOf(saisi);
+			}
+
+			else {
+				valeur = Double.valueOf(saisi);
 
 				if ((valeur>=0.01)&&(valeur<=1000000)) 
 				{
-
 					resultat=(valeur/conVkm);
 
-					/*resultat=arrondir(resultat,3);*/ // cette methode fonctionne avec la fonction codee en dehor du main
-
 					// BigDecimal est utiliser pour arrondir le chiffre apres la virgule.
-					BigDecimal resultat2 = new BigDecimal (resultat).setScale(3,RoundingMode.HALF_UP);
+					BigDecimal resultat2 = new BigDecimal (resultat).setScale(2,RoundingMode.HALF_UP);
 					System.out.println("La conversion de"+" "+valeur+" "+"Km"+" "+"est "+resultat2+" "+unite);
-
 				}
 
 				else 
@@ -51,32 +52,24 @@ public class exoKm211 {
 								+ "Vous devez saisir une valeur comprise entre (0.01 et 1 000 000) s'il vous plait.\n"
 								+ "Ou appuyez sur 'q' pour quitter.");
 						saisi=sc.nextLine();
-						valeur = Integer.valueOf(saisi);
+						valeur = Double.valueOf(saisi);
+						resultat=(valeur/conVkm);
+
+						// BigDecimal est utiliser pour arrondir le chiffre apres la virgule.
+						BigDecimal resultat2 = new BigDecimal (resultat).setScale(2,RoundingMode.HALF_UP);
+						System.out.println("La conversion de"+" "+valeur+" "+"Km"+" "+"est "+resultat2+" "+unite);
+
 					}
-					while ((valeur<=0) || (valeur>=1000001));
+
+					while ((valeur<=0) || (valeur>=1000000));
 				}
-
-
+				System.out.println("\nVoullez-vous faire une autre conversion ? oui/non ");
 
 			}
-			
-
-			else 
-			{
-				System.out.println("End of program");
-			}
-			System.out.println("\nVoullez-vous faire une autre conversion ? oui/non ");
 			rejouer=sc.nextLine();
+		}	
+		while (rejouer.equals("oui") && !veutQuitter);
 
-			
-
-		}
-		while (rejouer.equals("oui"));
 		sc.close();
 	}
-
-	/*public static double arrondir(double valeur, int decimales) {
-		return (new BigDecimal(valeur).setScale(decimales, RoundingMode.HALF_UP)).doubleValue();*/
-
-
 }

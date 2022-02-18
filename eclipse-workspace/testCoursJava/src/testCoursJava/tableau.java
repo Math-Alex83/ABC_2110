@@ -12,39 +12,43 @@ public class tableau {
 		String uniteDeMesure;
 		double conversion;
 		Scanner sc = new Scanner(System.in);
-		
+
 		System.out.println("Entrez une valeur suivie de MI ou KM:");
-		
+
 		saisie = sc.nextLine(); // "12 mi"
-		
+
 		tableauDeConversion = saisie.split(" ");
-		
+
 		valeur = Integer.valueOf(tableauDeConversion[0]);
-		
-		if(tableauDeConversion.length > 1) {
+
+		if(tableauDeConversion.length > 1) 
+		{
 			uniteDeMesure = tableauDeConversion[1];
 		}
-		else {
+		else 
+		{
 			uniteDeMesure = "km";
 		}
-		
+
 		uniteDeMesure = uniteDeMesure.toLowerCase();
-		
-		if(uniteDeMesure.equals("km")) {
+
+		if(uniteDeMesure.equals("km")) 
+		{
 			// conversion en km vers mi
 			conversion= (valeur/1.609);
 			System.out.println(" La distance "+valeur+" en km vaut "
 					+conversion+" Miles");
 		}
-		else {
+		else 
+		{
 			// conversion mi vers km
 			conversion= (valeur*1.609);
 			System.out.println(" La distance "+valeur+" en miles vaut "
 					+conversion+" km");
 		}
-		
+
 		// affichage du résultat
-				
+
 		sc.close();	
 	}
 }
